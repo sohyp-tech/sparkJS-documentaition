@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0c0101;
+    color: red;
+    font-family: Arial;
+}
+
+.spark-difinety {
+    color: rgb(207, 135, 123);
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.about-spark {
+    color: rgb(148, 80, 3);
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.code {
+    width: auto;
+    height: auto;
+    padding: 15px;
+    border: .5px solid #121212;
+    border-radius: 15px;
+    background-color: #1d1c1c;
+    color: #e2dcb6;
+    text-align: center;
+    font-size: 18px;
+}
+
+d {
+    color: #c78632;
+}
