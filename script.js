@@ -103,7 +103,7 @@ const home_page = () => Column({
 const get_started_page = () => {
     const stateObj = {};
     const demoEl = Text({ text: "0", style: "color: #AA0000; font-size: 30px; font-weight: bold; margin: 10px 0;" });
-    textState(stateObj, "count", 0, demoEl);
+    TextStateController(stateObj, "count", 0, demoEl);
 
     return Column({
         children: [
