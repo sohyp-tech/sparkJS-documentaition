@@ -67,8 +67,9 @@ const home_page = () => Column({
                     style: "width: 80%; max-width: 800px; align-items: flex-start;",
                     children: [
                         Widget("h2", { text: "Quick Start", style: "font-size: 30px; color: whitesmoke; font-weight: bold; margin-bottom: 15px; font-family: Arial;" }),
-                        Text({ text: "You can start with SparkJS by adding this line to your HTML:", style: "color: beige; font-size: 18px; margin-bottom: 15px; font-family: Arial;" }),
-                        CodeBlock(`<script src="https://sohyp-tech.github.io/sparkJS/index.js"></script>`)
+                        Text({ text: "You can start with SparkJS by adding this line to your HTML and import components in your JavaScript file:", style: "color: beige; font-size: 18px; margin-bottom: 15px; font-family: Arial;" }),
+                        CodeBlock(`<script src="./your_script_file.js" type="module"></script>`),
+                        CodeBlock(`import { components you want to import } from "https://sohyp-tech.github.io/sparkJS/index.js"`)
                     ]
                 }),
                 Widget("hr", { style: "width: 80%; max-width: 800px; height: 1px; border: none; background: #331111; margin: 40px 0;" }),
